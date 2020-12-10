@@ -1,0 +1,19 @@
+.Card {
+    border: rgba(53, 53, 194, 0.673);
+    border-style: solid;
+    background-color: rgba(53, 53, 194, 0.673);
+    height: 130px;
+    width: 100px;
+    border-radius: 15px;
+    margin: 8px;
+    float: left;
+    transition: transform 0.8s;
+    font-size: 5em;
+    padding-top: 40px;
+}
+
+.Card.face-up {
+    border: rgb(91, 133, 7);
+    background-color: rgb(91, 133, 7);
+    transform: rotateY(180deg);
+}
